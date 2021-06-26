@@ -21,7 +21,7 @@ There are two classes:
     ```
     To run particular test go to the [`FindMaxInSeqTests.class`](src/test/java/com/epam/rd/autotasks/sequence/FindMaxInSeqTests.java), choose the test and run command:
     ```console
-    $ mvn clean test -Dtest=MultiplyMatrixTests#<test_name>
+    $ mvn clean test -Dtest=FindMaxInSeqTests#<test_name>
     ```
 
 > **Note:** 
