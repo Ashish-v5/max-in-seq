@@ -25,11 +25,11 @@ There are two classes:
     ```
 
 > **Note:** 
->- You can't use third-party libraries to solve this task;
->- The sequence guaranteed to contain at least one value;
+>- You can't use third-party libraries to solve this task.
+>- The sequence guaranteed to contain at least one value.
 >- You have to install Maven locally to run tests. You can download Maven from [download page][maven-download].
 
-Example
+**Example:**
 
     Input: 2 4 6 9 2 4 5 0 (0 - is the end of sequence)
 
