@@ -8,7 +8,7 @@ The correctness of the task will be checked using tests.
 There are two classes:
 
 1) [`com.epam.rd.autotasks.sequence.FindMaxInSeq`](src/main/java/com/epam/rd/autotasks/sequence/FindMaxInSeq.java) - class for you to write code. Contains methods:
-    - `max` - **returns** the result of the multiplication of the given matrices integer array (matrix). You must provide the functionality to input values from the console, using `Scanner.class`:
+    - `max` - **returns** the maximum value of the given integer numbers sequence. You must provide the functionality to input values from the console (0 - the end of sequence), using `Scanner.class`:
         ```java
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
