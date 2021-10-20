@@ -1,38 +1,30 @@
-## Find the maximum integer in sequence
+# Find the maximum integer in a sequence
 
-You are given an integer sequence represented as **values inputted from console**. 
-The task is to **find maximum value** of the given sequence. 
+The purpose of this exercise is to train you to use simple loops and conditional statements.
 
-The correctness of the task will be checked using tests.
+Estimated workload of this exercise is _20 min_.
 
-There are two classes:
+### Description
 
-1) [`com.epam.rd.autotasks.sequence.FindMaxInSeq`](src/main/java/com/epam/rd/autotasks/sequence/FindMaxInSeq.java) - class for you to write code. Contains methods:
-    - `max` - **returns** the maximum value of the given integer numbers sequence. You must provide the functionality to input values from the console (0 - the end of sequence), using `Scanner.class`:
-        ```java
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        ```
-    - `main` - method for you to run your code locally.
-    
-2) [`com.epam.rd.autotasks.sequence.FindMaxInSeqTests`](src/test/java/com/epam/rd/autotasks/sequence/FindMaxInSeqTests.java) - class for testing your code. It contains several tests you can run using:
-    ```console
-    $ mvn clean test
-    ```
-    To run particular test go to the [`FindMaxInSeqTests.class`](src/test/java/com/epam/rd/autotasks/sequence/FindMaxInSeqTests.java), choose the test and run command:
-    ```console
-    $ mvn clean test -Dtest=FindMaxInSeqTests#<test_name>
-    ```
+Please, proceed to [FindMaxInSeq](src/main/java/com/epam/rd/autotasks/sequence/FindMaxInSeq.java)
+and write a program that reads a sequence of integer values from standard output and finds the maximum value. You must
+place your solution into the `max`  method to pass tests.
 
-> **Note:** 
->- You can't use third-party libraries to solve this task.
->- The sequence guaranteed to contain at least one value.
->- You have to install Maven locally to run tests. You can download Maven from [download page][maven-download].
+Details:
 
-**Example:**
+- You must read sequence values until the next one is `0`. Zero value means end of the input sequence.
+- The sequence is guaranteed to contain at least one value.
 
-    Input: 2 4 6 9 2 4 5 0 (0 - is the end of sequence)
+### Example
 
-    Output: 9 (max)
-    
-[maven-download]: https://maven.apache.org/download.cgi
+Input:
+
+```
+2 4 6 9 2 4 5 0
+```
+
+Output:
+
+```
+9
+```
