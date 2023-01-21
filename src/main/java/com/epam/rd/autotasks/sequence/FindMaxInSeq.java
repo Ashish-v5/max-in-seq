@@ -7,7 +7,7 @@ public class FindMaxInSeq {
         // Put your code here
         Scanner sc = new Scanner(System.in);
         int x=sc.nextInt();
-        int max=0;
+        int max=Integer.MIN_VALUE;
         while (x!=0){
             max=Math.max(max,x);
             x=sc.nextInt();
